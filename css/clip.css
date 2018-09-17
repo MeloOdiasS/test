@@ -1,0 +1,209 @@
+#clipMedia
+{
+width : 80%;
+margin : auto;
+text-align : center;
+margin-top : 30px;
+}
+
+#clipMedia nav
+{
+margin-bottom : 10px;
+margin-top : 30px;
+border-bottom : 1px solid #aaa;
+}
+
+#clipMedia nav ul
+{
+width : 280px;
+margin : auto;
+}
+
+#clipMedia nav ul li
+{
+float : left;
+}
+
+#clipMedia nav ul li a
+{
+float : left;
+border-radius : 5px 5px 0 0;
+margin-right : 5px;
+padding-right : 50px;
+padding-left : 50px;
+padding-top : 5px;
+padding-bottom : 5px;
+border-top : 1px solid #aaa;
+border-left : 1px solid #aaa;
+border-right : 1px solid #aaa;
+cursor : pointer;
+color : black;
+text-decoration : none;
+display : block;
+transition : all 1s;
+}
+
+#clipMedia nav ul li a:hover
+{
+background-color : #eee;
+}
+
+#slide-containerClip
+{
+width : 768px;
+text-align : center;
+position : relative;
+margin : auto ;
+border-radius : 5px;
+margin-bottom : 100px;
+margin-top : 50px;
+padding-top : 10px;
+padding-left : 10px;
+padding-right : 10px;
+}
+
+.previousButton
+{
+position : absolute;
+left : 10px;
+top : 50%;
+cursor : pointer;
+opacity : 0.3;
+font-size : 40px;
+color: #FFFFFF;
+text-shadow: 5px 2px 7px #000000;
+}
+
+.previousButton:hover
+{
+opacity : 0.8;
+}
+
+.nextButton
+{
+position : absolute;
+right : 10px;
+top : 50%;
+cursor : pointer;
+opacity : 0.3;
+color : white;
+font-size : 40px;
+text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+
+.nextButton:hover
+{
+opacity : 0.6;
+}
+
+.selectedSlide
+{
+background-color : #eee;
+}
+
+.sliderVideo
+{
+margin-top: 40px;
+}
+
+.sliderVideo iframe
+{
+width : 748px;
+height : 432px;
+font-size : 0px;
+border-radius : 5px;
+}
+
+.mySlidesVideo
+{
+display: none;
+}
+
+.mySlidesVideoSolo
+{
+display: none;
+}
+
+@media screen and (min-width: 500px) and (max-width: 950px) {
+#clipMedia
+{
+width : 98%;
+margin-top : 30px;
+}
+
+#slide-containerClip
+{
+width : 98%;
+margin-bottom : 40px;
+margin-top : 10px;
+}
+
+.previousButton
+{
+opacity : 0.5;
+}
+
+.nextButton
+{
+opacity : 0.5;
+}
+
+.sliderVideo
+{
+margin-top: 20px;
+}
+
+.sliderVideo iframe
+{
+width : 100%;
+font-size : 0px;
+border-radius : 5px;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 499px) {
+#clipMedia
+{
+width : 95%;
+margin-top : 30px;
+}
+
+#slide-containerClip
+{
+width : 98%;
+margin-bottom : 40px;
+margin-top : 10px;
+}
+
+.previousButton
+{
+opacity : 0.5;
+}
+
+.nextButton
+{
+opacity : 0.5;
+}
+
+.sliderVideo
+{
+margin-top: 20px;
+}
+
+.sliderVideo iframe
+{
+width : 100%;
+font-size : 0px;
+border-radius : 5px;
+}
+
+.mySlidesVideo h1
+{
+font-size : 1rem;
+}
+
+.mySlidesVideoSolo h1
+{
+font-size : 1rem;
+}
+}
