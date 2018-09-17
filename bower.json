@@ -1,0 +1,53 @@
+{
+  "name": "KNACSS",
+  "version": "2.9.1",
+  "homepage": "http://www.knacss.com/",
+  "authors": [
+    "Raphaël GOETTER, Alsacreations"
+  ],
+  "description": "KNACSS is a minimalist, responsive and extensible style sheet to kick-start your HTML / CSS projects. It relies on common best practices and experience on the topic.",
+  "main": "css/knacss.css",
+  "keywords": [
+    "css", "framework", "reset", "responsive", "rwd", "boilerplate", "workflow"
+  ],
+  "license": "WTFPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "less/knackLESS.zip",
+    "tests",
+    "README.md"
+  ]
+}
+{
+  "name": "Jquery",
+  "homepage": "https://github.com/jquery/jquery",
+  "version": "3.3.1",
+  "_release": "3.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.3.1",
+    "commit": "32b00373b3f42e5cdcb709df53f3b08b7184a944"
+  },
+  "_source": "https://github.com/jquery/jquery.git",
+  "_target": "^3.3.1",
+  "_originalSource": "Jquery",
+  "_direct": true
+}
+{
+  "name": "Font-Awesome",
+  "homepage": "https://github.com/FortAwesome/Font-Awesome",
+  "version": "5.3.1",
+  "_release": "5.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "5.3.1",
+    "commit": "ff2853acce00085b5830a050a2afa328fd212562"
+  },
+  "_source": "https://github.com/FortAwesome/Font-Awesome.git",
+  "_target": "^5.3.1",
+  "_originalSource": "Font-Awesome",
+  "_direct": true
+}
